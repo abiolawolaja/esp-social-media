@@ -1,0 +1,62 @@
+{
+  "id": "08-early-access",
+  "title": "Early access is open: here's what you get",
+  "footer_cta": "Early access now open",
+  "slides": [
+    {
+      "layout": "cover",
+      "theme": "navy",
+      "pill": "Early access now open",
+      "headline": "See the space *before it's set.*",
+      "body": "EventSpacePro is the floor plan tool for event planners, decorators and venues. Here's what you get.",
+      "screen": "templates.png",
+      "swipe": true
+    },
+    {
+      "layout": "feature",
+      "theme": "light",
+      "kicker": "01  Templates",
+      "headline": "Start from a *template.*",
+      "body": "Outdoor, indoor and marquee layouts, ready to adapt to your venue.",
+      "screen": "templates.png"
+    },
+    {
+      "layout": "feature",
+      "theme": "tint",
+      "kicker": "02  AI Assistant",
+      "headline": "Describe your event. *Get a first draft.*",
+      "body": "Type your guest count, tables, stage and dance floor. The AI Assistant lays out the plan for you to edit.",
+      "screen": "ai.png"
+    },
+    {
+      "layout": "feature",
+      "theme": "light",
+      "kicker": "03  Editor",
+      "headline": "Edit every detail *to scale.*",
+      "body": "Work in metres with snap-to-grid, and see your chair and table totals as you go.",
+      "screen": "editor.png",
+      "callout": "Totals as you go: 104 chairs · 60 tables"
+    },
+    {
+      "layout": "feature",
+      "theme": "tint",
+      "kicker": "04  Share",
+      "headline": "Share the plan, *not version 7.*",
+      "body": "Invite collaborators, leave comments, and export a PDF when it's ready.",
+      "chips": [
+        "Share link",
+        "Collaborators",
+        "Comments",
+        "Export to PDF"
+      ]
+    },
+    {
+      "layout": "cta",
+      "theme": "navy",
+      "headline": "Early access is *open.*",
+      "body": "Sign up at eventspacepro.com and plan your next event to scale.",
+      "button": "eventspacepro.com",
+      "note": "Built in Lagos for event professionals."
+    }
+  ]
+}
