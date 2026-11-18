@@ -19,8 +19,9 @@ from playwright.sync_api import sync_playwright
 
 ROOT = pathlib.Path(__file__).parent
 W, H = 1080, 1350
-BRAND = {"navy": "#021938", "blue": "#0056A9", "tint": "#EEF2FB", "white": "#FFFFFF",
-         "ink": "#021938", "muted": "#4A5A73", "sky": "#7FB2F0"}
+# Green Room palette (Brand Guide v3): Brand Blue #1B4DB1, Navy #0A1F3C
+BRAND = {"navy": "#0A1F3C", "blue": "#1B4DB1", "tint": "#EEF3FC", "white": "#FFFFFF",
+         "ink": "#0A1F3C", "muted": "#4F5966", "sky": "#8DB0F2"}
 
 def b64(path):
     return base64.b64encode(path.read_bytes()).decode()
@@ -43,8 +44,10 @@ LOGO_SVG = re.sub(r"<metadata>.*?</metadata>", "", LOGO_SVG, flags=re.S)
 
 def logo(theme):
     svg = LOGO_SVG
-    if theme == "navy":  # white wordmark on dark slides, blue mark kept
-        svg = svg.replace('fill="#021a37"', 'fill="#FFFFFF"').replace('fill="#0155a8"', 'fill="#7FB2F0"')
+    if theme == "navy":  # white wordmark on dark slides, light-blue mark
+        svg = svg.replace('fill="#021a37"', 'fill="#FFFFFF"').replace('fill="#0155a8"', f'fill="{BRAND["sky"]}"')
+    else:  # recolour the logo file's old palette to Green Room
+        svg = svg.replace('fill="#021a37"', f'fill="{BRAND["navy"]}"').replace('fill="#0155a8"', f'fill="{BRAND["blue"]}"')
     return "data:image/svg+xml;base64," + base64.b64encode(svg.encode()).decode()
 
 def rich(text):

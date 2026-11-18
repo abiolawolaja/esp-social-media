@@ -15,7 +15,7 @@ Rules
 - The browser frame's address bar stays empty. Only add `app_url` to a slide when Abi says the app link can be shown.
 - Crop every app screen so no client or project names, emails or avatars show.
 - Only claim features that are visible and live in the app; check with Abi when unsure.
-- Brand: Navy #021938, Brand Blue #0056A9, Blue tint #EEF2FB; Plus Jakarta Sans for headlines, Inter for body.
+- Brand: Navy #0A1F3C, Brand Blue #1B4DB1, Blue tint #EEF3FC (Green Room / Brand Guide v3); Plus Jakarta Sans for headlines, Inter for body.
 - Voice: talk to one person, lead with the outcome. Never use book, magic, effortless, seamless or users.
 
 Layouts: `cover` (navy, pill + headline + screen), `feature` (kicker + headline + body + screen, chips, or callout), `cta` (navy, headline + button).

@@ -24,9 +24,9 @@
     {
       "layout": "feature",
       "theme": "tint",
-      "kicker": "02  AI Assistant",
+      "kicker": "02  The assistant",
       "headline": "Describe your event. *Get a first draft.*",
-      "body": "Type your guest count, tables, stage and dance floor. The AI Assistant lays out the plan for you to edit.",
+      "body": "Type your guest count, tables, stage and dance floor. The AI assistant lays out the plan for you to edit.",
       "screen": "ai.png"
     },
     {
