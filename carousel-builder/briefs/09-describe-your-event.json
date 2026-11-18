@@ -1,0 +1,50 @@
+{
+  "id": "09-describe-your-event",
+  "title": "Describe the event, get the floor plan",
+  "status": "draft 2026-11-18 (studio test), waiting for Abi's approval",
+  "footer_cta": "Early access now open",
+  "slides": [
+    {
+      "layout": "cover",
+      "theme": "navy",
+      "pill": "How it works",
+      "headline": "Describe it. *Get the plan.*",
+      "body": "One sentence becomes a floor plan you can edit. Three steps.",
+      "screen": "ai.png",
+      "swipe": true
+    },
+    {
+      "layout": "feature",
+      "theme": "light",
+      "kicker": "Step 1  Type the brief",
+      "headline": "Say it the way *you'd brief your team.*",
+      "body": "Guest count, table shape, stage, dance floor, DJ booth. One sentence is enough.",
+      "screen": "ai.png",
+      "callout": "200 guests · round tables of 10 · stage · DJ"
+    },
+    {
+      "layout": "feature",
+      "theme": "tint",
+      "kicker": "Step 2  Get a first draft",
+      "headline": "The assistant *does the first layout.*",
+      "body": "The AI assistant lays out the plan from your brief, so you start from a draft, not a blank page.",
+      "chips": ["Round tables", "Stage", "Dance floor", "DJ booth"]
+    },
+    {
+      "layout": "feature",
+      "theme": "light",
+      "kicker": "Step 3  Make it yours",
+      "headline": "Move anything. *It stays to scale.*",
+      "body": "Drag tables, resize the stage and check your totals. Work in metres with snap-to-grid.",
+      "screen": "editor.png"
+    },
+    {
+      "layout": "cta",
+      "theme": "navy",
+      "headline": "Try it on *your next brief.*",
+      "body": "Early access is open. Sign up at eventspacepro.com and plan your next event to scale.",
+      "button": "eventspacepro.com",
+      "note": "Built in Lagos for event professionals."
+    }
+  ]
+}
