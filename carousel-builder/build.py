@@ -45,9 +45,8 @@ LOGO_SVG = re.sub(r"<metadata>.*?</metadata>", "", LOGO_SVG, flags=re.S)
 def logo(theme):
     svg = LOGO_SVG
     if theme == "navy":  # white wordmark on dark slides, light-blue mark
-        svg = svg.replace('fill="#021a37"', 'fill="#FFFFFF"').replace('fill="#0155a8"', f'fill="{BRAND["sky"]}"')
-    else:  # recolour the logo file's old palette to Green Room
-        svg = svg.replace('fill="#021a37"', f'fill="{BRAND["navy"]}"').replace('fill="#0155a8"', f'fill="{BRAND["blue"]}"')
+        svg = svg.replace('fill="#0A1F3C"', 'fill="#FFFFFF"').replace('fill="#1B4DB1"', f'fill="{BRAND["sky"]}"')
+    # light slides: logo.svg is already in the Green Room palette (navy #0A1F3C, blue #1B4DB1)
     return "data:image/svg+xml;base64," + base64.b64encode(svg.encode()).decode()
 
 def rich(text):
